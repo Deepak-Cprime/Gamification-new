@@ -1,0 +1,231 @@
+/* GamificationDashboard.css */
+
+.gamification-root {
+  font-family: 'Inter', sans-serif;
+  background: #f7fafd;
+  min-height: 100vh;
+  padding: 32px;
+}
+
+.gamification-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.gamification-container {
+  margin-top: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #e3e8ee;
+  padding: 32px;
+}
+
+.gamification-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.gamification-header-icon {
+  font-size: 32px;
+  margin-right: 12px;
+}
+
+.gamification-header-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.gamification-header-desc {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.gamification-leaderboard {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.gamification-agent-card {
+  flex: 1;
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.gamification-agent-card.first {
+  border: 2px solid #ffe066;
+  box-shadow: 0 2px 8px #ffe06633;
+}
+
+.gamification-agent-card.other {
+  border: 2px solid #f3f4f6;
+}
+
+.gamification-agent-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.gamification-agent-rank {
+  background: #ffe066;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+.gamification-agent-info {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.gamification-agent-username {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.gamification-agent-xp {
+  margin-left: auto;
+  color: #fbbf24;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.gamification-agent-stats {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 12px;
+}
+
+.gamification-agent-stat {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.gamification-agent-stat-label {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.gamification-agent-achievement {
+  background: #d1fae5;
+  color: #059669;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.gamification-all-agents {
+  background: #fff;
+  border-radius: 16px;
+  border: 2px solid #f3f4f6;
+  padding: 24px;
+}
+
+.gamification-all-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.gamification-all-desc {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.gamification-all-agent-row {
+  display: flex;
+  align-items: center;
+  background: #f7fafd;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.gamification-all-rank {
+  background: #e0e7ff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+.gamification-all-avatar {
+  background: #e0e7ff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2563eb;
+  margin-right: 12px;
+}
+
+.gamification-all-agent-info {
+  flex: 1;
+}
+
+.gamification-all-agent-name {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.gamification-all-agent-level {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.gamification-all-agent-stats {
+  display: flex;
+  gap: 24px;
+  margin-right: 24px;
+}
+
+.gamification-all-agent-stat {
+  text-align: center;
+}
+
+.gamification-all-agent-stat-value {
+  font-weight: 700;
+}
+
+.gamification-all-agent-stat-label {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.gamification-all-achievement {
+  background: #d1fae5;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+.gamification-all-achievement-icon {
+  font-size: 20px;
+}

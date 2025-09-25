@@ -1,0 +1,19 @@
+modules:
+  jira:projectPage:
+    - key: gamification-hello-world-project-page
+      resource: main
+      resolver:
+        function: resolver
+      title: gamification
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  runtime:
+    name: nodejs22.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/c7b0a77d-8180-44db-9965-f4b96bce5df1
